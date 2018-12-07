@@ -1,4 +1,7 @@
-# Proj3
+# Chord
+
+## Goal
+Chord is a protocol and algorithm for a peer-to-peer distributed hash table. A distributed hash table stores key-value pairs by assigning keys to different computers (known as "nodes"); a node will store the values for all the keys for which it is responsible. Chord specifies how keys are assigned to nodes, and how a node can discover the value for a given key by first locating the node responsible for that key. This project is an implementation of the network join and routing as described in the [Chord paper](https://pdos.csail.mit.edu/papers/ton:chord/paper-ton.pdf) and encode the simple application that associates a key with a string.
 
 ## Group members
 
